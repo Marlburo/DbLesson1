@@ -1,0 +1,12 @@
+/home/marlburo/.rbenv/versions/2.1.2/bin/ruby extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling atomic_reference.c
+linking shared-object atomic_reference.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 atomic_reference.so ./.gem.20140831-12472-2injpc
+installing default atomic_reference libraries
